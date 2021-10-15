@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  color: rgb(61, 73, 92);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.5;
+}
+
+body {
+  background-color: rgb(249, 249, 249);
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px rgb(225, 229, 235) solid;
+  font-size: 25px;
+  height: 49.656px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  margin-left: 30px;
+  width: 125px;
+}
+
+.header-left p {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+header .fas , header .fab , button , li , .manual {
+  cursor: pointer;
+}
+
+.fa-superpowers {
+  color: rgb(47, 193, 140);
+  font-size: larger;
+}
+
+.header-right {
+  margin-right: 26px;
+  width: 308px;
+  justify-content: space-evenly;
+}
+
+.header-right button {
+  background-color: inherit;
+  border: 1px rgb(240, 242, 245) solid;
+  border-radius: 8%;
+  font-size: 0.89rem;
+  padding: 0.54vh 0.6vw;
+}
+
+main {
+  margin: 77px auto 45px;
+  max-width: 1209px;
+}
+
+.main-header {
+  margin-bottom: 32px;
+}
+
+.main-header h1 {
+  font-size: 1.9rem;
+}
+
+.content {
+  flex-wrap: wrap;
+}
+
+li {
+  background-color: white;
+  list-style: none;
+  margin: 16px 0;
+}
+
+li .fas {
+  font-size: 130px;
+  align-self: center;
+}
+
+.small-cards {
+  width: 290px;
+  height: 320px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.small-cards div {
+  margin: 16px 16px 0 6px;
+}
+
+.small-p {
+  font-size: 0.75rem;
+  line-height: 1.08;
+}
+
+.bold-p {
+  font-weight: 700;
+  max-width: 200px;
+}
+
+.big-cards {
+  height: 240px;
+  width: 596px;
+}
+
+.big-cards div p {
+  margin-left: 16px;
+}
+
+.big-cards i {
+  margin: 0 40px;
+}
+
+div h2 {
+  margin: 30px 0;
+  font-size: 1.85rem;
+}
+
+footer {
+  width: 100%;
+  border-top: rgb(61, 73, 92) 1px solid;
+  font-size: 0.75rem;
+  padding: 14px 0;
+  background-color: white;
+}
+
+.footer-left {
+  width: 310px;
+  margin-left: 10px;
+  justify-content: space-evenly;
+}
+
+.manual {
+  text-decoration: underline;
+}
+
+.footer-right {
+  margin-right: 33px;
+}
