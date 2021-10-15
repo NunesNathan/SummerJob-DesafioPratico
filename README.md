@@ -398,27 +398,27 @@ footer {
 ```
 
 ### Lista de exercícios
-<strong>Exercício 0:</strong> Redimensione a tela algumas vezes, leia o HTML e o CSS. Conheça no que você está trabalhando, isso ajudará a resolver os exercícios!
+- <strong>Exercício 0:</strong> Redimensione a tela algumas vezes, leia o HTML e o CSS. Conheça no que você está trabalhando, isso ajudará a resolver os exercícios!
 
-<strong>Exercício 1:</strong> Adicione uma media query com a media feature de largura máxima na qual você identificou que o site começa a ficar "quebrado" (como sugestão 1200px). Diminua o tamanho da fonte o quanto julgar necessário.
+- <strong>Exercício 1:</strong> Adicione uma media query com a media feature de largura máxima na qual você identificou que o site começa a ficar "quebrado" (como sugestão 1200px). Diminua o tamanho da fonte o quanto julgar necessário.
 
-<strong>Exercício 2:</strong> Faça o conteúdo principal ficar centralizado em coluna na tela, apenas um .big-cards ou dois .small-cards por linha.
+- <strong>Exercício 2:</strong> Faça o conteúdo principal ficar centralizado em coluna na tela, apenas um .big-cards ou dois .small-cards por linha.
 
-<strong>Exercício 3:</strong> Adicione também 10px de margem nos dois títulos e no subtítulo.
+- <strong>Exercício 3:</strong> Adicione também 10px de margem nos dois títulos e no subtítulo.
 
-<strong>Exercício 4:</strong> Altere para 1 a altura de linha de todos os elementos da página.
+- <strong>Exercício 4:</strong> Altere para 1 a altura de linha de todos os elementos da página.
 
-<strong>Exercício 5:</strong> Repare na página que a descrição do conteúdo está colada no título, dê uma pequena margem para resolver isto. O mesmo ocorre com o h1 na main do conteúdo.
+- <strong>Exercício 5:</strong> Repare na página que a descrição do conteúdo está colada no título, dê uma pequena margem para resolver isto. O mesmo ocorre com o h1 na main do conteúdo.
 
-<strong>Exercício 6:</strong> E se o dispositivo de exibição fosse menor? Vamos incluir nossos amigos móveis tambem?(sugestão de largura: 640px) Aproveite pra já remover o contador de faltas para essa versão.
+- <strong>Exercício 6:</strong> E se o dispositivo de exibição fosse menor? Vamos incluir nossos amigos móveis tambem?(sugestão de largura: 640px) Aproveite pra já remover o contador de faltas para essa versão.
 
-<strong>Exercício 7:</strong> Remova também todo o conteúdo da classe footer-left da tela.
+- <strong>Exercício 7:</strong> Remova também todo o conteúdo da classe footer-left da tela.
 
-<strong>Exercício 8:</strong> Após as duas últimas mudanças, altere o tamanho e espaçamento dos itens da div na qual o botão estava. Ajeite também a margem do texto do footer.
+- <strong>Exercício 8:</strong> Após as duas últimas mudanças, altere o tamanho e espaçamento dos itens da div na qual o botão estava. Ajeite também a margem do texto do footer.
 
-<strong>Exercício 9:</strong> Chegou a hora de da classe .big-cards ter a mesma configuração que o .small-cards. Apenas um small-cards por linha e coluna. Diminuir a fonte de descrição seria interessante também!
+- <strong>Exercício 9:</strong> Chegou a hora de da classe .big-cards ter a mesma configuração que o .small-cards. Apenas um small-cards por linha e coluna. Diminuir a fonte de descrição seria interessante também!
 
-Se você concluiu todos os exercícios parabénsss!! 🎉🎉
+Se você concluíu todos os exercícios parabénsss!! 🎉🎉
 
 Caso queira praticar mais um pouco, há um desafio muito legal na aba exercícios bônus!
 
@@ -426,7 +426,7 @@ Aprender a programar é mão na massa, mas não deixe de descansar um pouquinho,
 
 ### Exercícios bônus
 
-<strong>Exercício Bônus:</strong> Que tal fazer um alerta aparecer sempre que clicarmos em algo clicável na página? E pra melhorar, um desafio, tudo que se pode mudar no HTML é adicionar a seguinte linha:
+- <strong>Exercício Bônus:</strong> Que tal fazer um alerta aparecer sempre que clicarmos em algo clicável na página? E pra melhorar, um desafio, tudo que se pode mudar no HTML é adicionar a seguinte linha:
 ```html
 <script src="script.js"></script>
 ```
