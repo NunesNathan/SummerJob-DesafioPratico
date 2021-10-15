@@ -108,16 +108,16 @@ Bem, agora alinhados, mão na massa!
 
   <header class="container">
     <div class="header-left container">
-      <i class="fas fa-ellipsis-v"></i>
-      <i class="fab fa-superpowers"></i>
+      <i class="pointer fas fa-ellipsis-v"></i>
+      <i class="pointer fab fa-superpowers"></i>
       <p>Curso</p>
     </div>
 
     <div class="header-right container">
-      <button>Faltas: 1/48</button>
-      <i class="fas fa-briefcase"></i>
-      <i class="fas fa-mask"></i>
-      <i class="fas fa-th"></i>
+      <button class="pointer">Faltas: 1/48</button>
+      <i class="pointer fas fa-briefcase"></i>
+      <i class="pointer fas fa-mask"></i>
+      <i class="pointer fas fa-th"></i>
     </div>
   </header>
 
@@ -129,75 +129,73 @@ Bem, agora alinhados, mão na massa!
     </div>
 
     <ul class="container content">
-      <li class="small-cards container">
-        <i style="color: rgb(47, 193, 140);" class="fas fa-shapes"></i>
+      <li class="pointer small-cards container">
+        <i class="pointer cor1 fas fa-shapes"></i>
         <div>
           <p class="small-p">Módulo 1</p>
           <p class="bold-p">Fundamentos e Ferramentas do Herói</p>
         </div>
       </li>
-      <li class="small-cards container">
-        <i style="color: rgb(197, 172, 210);" class="fas fa-baby"></i>
+      <li class="pointer small-cards container">
+        <i class="pointer cor2 fas fa-baby"></i>
         <div>
           <p class="small-p">Módulo 2</p>
           <p class="bold-p">Hostage Priority</p>
         </div>
       </li>
-      <li class="small-cards container">
-        <i style="color: rgb(3, 107, 82);" class="fas fa-map-marked"></i>
+      <li class="pointer small-cards container">
+        <i class="pointer fas cor3 fa-map-marked"></i>
         <div>
           <p class="small-p">Módulo 3</p>
           <p class="bold-p">Objeção de Planos</p>
         </div>
       </li>
-      <li class="small-cards container">
-        <i style="color: rgb(65, 25, 127);" class="fas fa-people-carry"></i>
+      <li class="pointer small-cards container">
+        <i class="pointer cor4 fas fa-people-carry"></i>
         <div>
           <p class="small-p">Módulo 4</p>
           <p class="bold-p">Trabalho em Grupo</p>
         </div>
       </li>
-      <li class="big-cards container">
+      <li class="pointer big-cards container">
         <div>
           <p class="bold-p">Cantinho Charles Xavier</p>
           <p class="small-p">Cuidando do seu Héroi interior. Um gênio dá as dicas e
             mostra os caminhos certos para você se sentir bem. "<em>É necessário salvar
               a si mesmo antes de salvar o mundo!</em>"</p>
         </div>
-        <i style="color: rgb(128, 183, 255);" class="fas fa-theater-masks"></i>
+        <i class="pointer cor5 fas fa-theater-masks"></i>
       </li>
-      <li class="big-cards container">
+      <li class="pointer big-cards container">
         <div>
           <p class="bold-p">FLASHback de Aulas</p>
           <p class="small-p">Perdeu alguma aula? Quer rever a dica dos
             especialistas? Teve que resgatar um gato de cima de uma árvore?
             Este aqui é o lugar certo pra você!</p>
         </div>
-        <i style="color: rgb(220, 205, 228);" class="fas fa-history"></i>
+        <i class="pointer cor2 fas fa-history"></i>
       </li>
     </ul>
 
     <div>
       <h2>Conteúdos Complementares</h2>
       <ul class="container content">
-        <li class="big-cards container">
+        <li class="pointer big-cards container">
           <div>
             <p class="bold-p">Heróis em Alta</p>
             <p class="small-p">Quer saber como está a vida daquele que te fez amar seus
               poderes? Qual a roupa de Herói que mais vem sendo amada pelas crianças?</p>
           </div>
-          <i style="color: rgb(47, 193, 140);"
-            class="fas fa-chart-line"></i>
+          <i class="pointer cor1 fas fa-chart-line"></i>
         </li>
-        <li class="big-cards container">
+        <li class="pointer big-cards container">
           <div>
             <p class="bold-p">Equipes</p>
             <p class="small-p">Quer ficar de olho nas ligas, grupos e equipes que a
               TroyBe Heroes está aliada? Veja conteúdos que te deixará mais próximo
               delas!</p>
           </div>
-          <i style="color: rgb(3, 107, 82);"
-            class="fas fa-users"></i>
+          <i class="pointer cor3 fas fa-users"></i>
         </li>
       </ul>
     </div>
@@ -207,14 +205,13 @@ Bem, agora alinhados, mão na massa!
     <div class="footer-left container">
       <span>© TroyBe Heroes</span>
       <span>·</span>
-      <span class="manual">Mandamentos de Herói Moderno</span>
+      <span class="pointer manual">Mandamentos de Herói Moderno</span>
     </div>
     <div class="footer-right">
       <span>Feito com propósito de ajudar a fixar os exercícios de CSS Responsivo, usando
         Font Awesome e 💚</span>
     </div>
   </footer>
-
 </body>
 </html>
 
@@ -265,7 +262,7 @@ header {
   font-weight: 600;
 }
 
-header .fas , header .fab , button , li , .manual {
+.pointer {
   cursor: pointer;
 }
 
@@ -378,6 +375,26 @@ footer {
   margin-right: 33px;
 }
 
+.cor1 {
+  color: rgb(47, 193, 140);
+}
+
+.cor2 {
+  color: rgb(197, 172, 210);
+}
+
+.cor3 {
+  color: rgb(3, 107, 82);
+}
+
+.cor4 {
+  color: rgb(65, 25, 127);
+}
+
+.cor5 {
+  color: rgb(128, 183, 255);
+}
+
 ```
 
 ### Lista de exercícios
@@ -401,10 +418,20 @@ footer {
 
 <strong>Exercício 9:</strong> Chegou a hora de da classe .big-cards ter a mesma configuração que o .small-cards. Apenas um small-cards por linha e coluna. Diminuir a fonte de descrição seria interessante também!
 
-Se tudo correu bem, sua página deve estar próxima a isto: <img alt="Imagem referência 1366px" src="https://drive.google.com/file/d/1F2auhweQGpetl-NtkxfdkahH5ogxSh4W/view?usp=sharing">
-![Imagem referência 1366px](https://drive.google.com/file/d/1F2auhweQGpetl-NtkxfdkahH5ogxSh4W/view?usp=sharing)
+Se você concluiu todos os exercícios parabénsss!! 🎉🎉
+
+Caso queira praticar mais um pouco, há um desafio muito legal na aba exercícios bônus!
+
+Aprender a programar é mão na massa, mas não deixe de descansar um pouquinho, sim? 😊✨
 
 ### Exercícios bônus
+
+<strong>Exercício Bônus:</strong> Que tal fazer um alerta aparecer sempre que clicarmos em algo clicável na página? E pra melhorar, um desafio, tudo que se pode mudar no HTML é adicionar a seguinte linha:
+```html
+<script src="script.js"></script>
+```
+
+E aí? Vamos nessa? Como sugestão de texto para o modal temos: "Requisição feita do universo errado 😔" ou o texto do próprio conteúdo que clicamos, mas se for ícone deverá aparecer "Os heróis amam esse ícone!".
 
 ## Recursos Adicionais
 
