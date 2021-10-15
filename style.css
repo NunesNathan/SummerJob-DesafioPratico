@@ -40,7 +40,7 @@ header {
   font-weight: 600;
 }
 
-header .fas , header .fab , button , li , .manual {
+.pointer {
   cursor: pointer;
 }
 
@@ -151,4 +151,24 @@ footer {
 
 .footer-right {
   margin-right: 33px;
+}
+
+.cor1 {
+  color: rgb(47, 193, 140);
+}
+
+.cor2 {
+  color: rgb(197, 172, 210);
+}
+
+.cor3 {
+  color: rgb(3, 107, 82);
+}
+
+.cor4 {
+  color: rgb(65, 25, 127);
+}
+
+.cor5 {
+  color: rgb(128, 183, 255);
 }
